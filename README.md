@@ -9,4 +9,4 @@ Pyperclip requires pyperclip (https://pypi.org/project/pyperclip/) This automati
 
 Out of the box, Budou CLI only prints to terminal. This script prints to an output file + copies output to clipboard.
 
-NOTE: My project uses Tinysegmenter, but you can specify a different segmenter. Also, make sure you have already created an output.txt file in your working directory; input.py needs that file to write to. 
+NOTE: My project uses Tinysegmenter, but you can specify a different segmenter. Also, make sure you have already created an output.txt file in your working directory because input.py needs that file to write to. 
