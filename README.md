@@ -9,9 +9,9 @@ Pyperclip requires pyperclip (https://pypi.org/project/pyperclip/) This automati
 
 Hotkey file requires autohotkey: totally optional option, in case you wanted to bind `python input.py` to a key...
 
-##Out of the box, Budou CLI only prints to terminal. This script prints to an output file + copies output to clipboard.
+## Out of the box, Budou CLI only prints to terminal. This script prints to an output file + copies output to clipboard.
 
-###GETTING STARTED
+### GETTING STARTED
 1) Install python on your machine (python comes standard on most Macs)
 2) Run `pip install budou`, `pip install watchdog`, and then `pip install pyperclip` on the terminal of your choice
 3) Create new project folder, name it whatever you want. Git clone or download the files in this repository to that folder.
