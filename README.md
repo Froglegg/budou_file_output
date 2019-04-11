@@ -16,7 +16,7 @@ Hotkey file requires autohotkey: totally optional option, in case you wanted to 
 2) Run `pip install budou`, `pip install watchdog`, and then `pip install pyperclip` on the terminal of your choice
 3) Create new project folder, name it whatever you want. Git clone or download the files in this repository to that folder.
 4) Navigate to the project folder in your terminal and run `python monitor_changes.py` This runs in the background and listens for changes to the "input.py" file.
-5) Open "input.py" in IDE/text editor of your choice, and drop in Japanese text to line 3 `result= parser.parse('japanese-characters-go-here')` Save file (ctrl+s)
+5) Open "input.py" in IDE/text editor of your choice, and drop in Japanese text to line 3 `result= parser.parse('japanese/chinese/korean characters go here')` Save file (ctrl+s)
 6) The watchdog automatically executes "input.py" after you save it, which prints the segmented japanese characters into "output.txt" and copies them to your clipboard, as well, so you don't have to copy the text from "output.txt"
 
 NOTE: this was developed on Windows 10-- you might need to tweak files for other OS, e.g. make case_sensitive = True in the watchdog event listener for other OS. With some minor tweaks, this could be used for Chinese and Korean, as well. 
