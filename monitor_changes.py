@@ -2,7 +2,7 @@
 # This script listens for any change in input.py i.e. if the file is changed and then saved, and then executes input.py.
 # This saves time by eliminating the need to run input.py in the terminal.
 # Whenever new JP text is inputted to input.py and then input.py is saved, this automatically runs input.py.
-# There are several uneccessary arguments in this script, however, I'm keeping them in case I want to re-use Watchdog for anothe project ;) 
+# There are several uneccessary arguments in this script, however, I'm keeping them in case I want to re-use Watchdog for another project ;) 
 import time
 import os
 from watchdog.observers import Observer
