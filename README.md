@@ -1,5 +1,5 @@
 # budou_file_output
-Python script I wrote for writing Budou Japanese output to file. Note, this works on my Windows machine-- you might need to tweak files for other OS, e.g. make case_sensitive = True in the watchdog event listener.
+Python script I put together for writing Budou Japanese output to file. Note, this works on my Windows machine-- you might need to tweak files for other OS, e.g. make case_sensitive = True in the watchdog event listener.
 
 Requires python and Budou. See https://github.com/google/budou for more information
 
