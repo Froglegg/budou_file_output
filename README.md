@@ -24,4 +24,4 @@ Hotkey file requires autohotkey: totally optional option, in case you wanted to 
 
 NOTE: this was developed on Windows 10-- you might need to tweak files for other OS, e.g. make case_sensitive = True in the watchdog event listener for other OS. Also, make sure you have already created an output.txt file in your working directory because input.py needs that file to write to. 
 
-AGAIN: My project uses Tinysegmenter, just follow directions on https://github.com/google/budou, replace line 3 in `input.py` with `parser = budou.authenticate('/path/to/api-key.json')` and create a pickle file under /tmp like so `budou_file_output/tmp/budou-cache.pickle` 
+AGAIN: My project uses Tinysegmenter, which is an opensource parser for Japanese only. For Chinese and/or Korean, just follow directions on https://github.com/google/budou, replace line 3 in `input.py` with `parser = budou.authenticate('/path/to/api-key.json')` and create a pickle file under /tmp like so `budou_file_output/tmp/budou-cache.pickle` 
