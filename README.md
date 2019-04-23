@@ -1,6 +1,6 @@
 # Budou write output to file / clipboard 
 
-### NOTE: These files work only with tinysegmenter for Japanese. To use Chinese or Korean, you'll need to follow the directions on https://github.com/google/budou and create a Google Cloud account to use the Cloud Natural language API. Follow those directions, set the parser declaration as `parser = budou.authenticate('budou-api-key.json')` and create a `/tmp` directory with a `budou-cache.pickle` file and you're good to go.
+NOTE: These files work only with tinysegmenter for Japanese. To use Chinese or Korean, you'll need to follow the directions on https://github.com/google/budou and create a Google Cloud account to use the Cloud Natural language API. Follow those directions, set the parser declaration as `parser = budou.authenticate('budou-api-key.json')` and create a `/tmp` directory with a `budou-cache.pickle` file and you're good to go.
 
 Python script I put together for writing Budou Japanese/Chinese/Korean output to file. This would be useful for content editors who are dealing with the notorious linebreak issue when copy/pasting Japanese text into CMS like Wordpress, Sitefinity, Drupal, etc., and who want a more streamlined, automated process for dealing with a large amount of Japenese/Chinese/Korean content. 
 
