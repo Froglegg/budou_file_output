@@ -22,6 +22,6 @@ Hotkey file requires autohotkey: totally optional option, in case you wanted to 
 5) Open "input.py" in IDE/text editor of your choice, and drop in Japanese text to line 3 `result= parser.parse('japanese/chinese/korean characters go here')` Save file (ctrl+s)
 6) The watchdog automatically executes "input.py" after you save it, which prints the segmented japanese characters into "output.txt" and copies them to your clipboard, as well, so you don't have to copy the text from "output.txt"
 
-NOTE: this was developed on Windows 10-- you might need to tweak files for other OS, e.g. make case_sensitive = True in the watchdog event listener for other OS. With some minor tweaks, this could be used for Chinese and Korean, as well. 
+NOTE: this was developed on Windows 10-- you might need to tweak files for other OS, e.g. make case_sensitive = True in the watchdog event listener for other OS. Also, make sure you have already created an output.txt file in your working directory because input.py needs that file to write to. 
 
-ALSO NOTE: My project uses Tinysegmenter, but you can specify a different segmenter in "input.py". Also, make sure you have already created an output.txt file in your working directory because input.py needs that file to write to. 
+AGAIN: My project uses Tinysegmenter, just follow directions on https://github.com/google/budou, replace line 3 in `input.py` with `parser = budou.authenticate('/path/to/api-key.json')` and create a pickle file under /tmp like so `budou_file_output/tmp/budou-cache.pickle` 
